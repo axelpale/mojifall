@@ -1,0 +1,30 @@
+{
+  "name": "mojirain",
+  "version": "0.0.0",
+  "description": "Example app",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "nodemon --watch src --exec 'npm run build'",
+    "test": "standard 'src/**/*.js' && echo OK"
+  },
+  "author": {
+    "name": "Akseli Palen",
+    "email": "akseli.palen@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/axelpale/mojirain.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "*",
+    "standard": "*",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "deep-equal": "^1.1.0",
+    "sprinkler": "^0.4.4"
+  }
+}
