@@ -1,5 +1,6 @@
 {
-  "name": "mojirain",
+  "name": "mojifall",
+  "private": true,
   "version": "0.0.0",
   "description": "Example app",
   "main": "app.js",
