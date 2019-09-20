@@ -5,7 +5,7 @@ var c = document.getElementById('canvas')
 var s = sprinkler.create(c)
 
 var images = emojilist.map(filename => {
-  return 'img/' + filename + '.png'
+  return 'img/openmoji/' + filename + '.png'
 })
 
 s.start(images, {
