@@ -1,0 +1,6 @@
+img/
+img/openmoji/
+img/openmoji/*.png
+dist/
+dist/bundle.js
+index.html
