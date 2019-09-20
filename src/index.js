@@ -11,6 +11,7 @@ var images = emojilist.map(filename => {
 
 s.start(images, {
   burnInSeconds: 10,
+  imagesInSecond: 4,
   zMin: 1,
   zMax: 1,
   rMin: 0,
