@@ -1,0 +1,26 @@
+#infobox {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  max-width: 16rem;
+
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 0.62rem;
+  padding: 0.62rem;
+}
+
+.infobox-icon {
+  font-weight: bold;
+  color: #333;
+  margin: -0.62rem;
+  padding: 0.62rem;
+}
+
+.infobox-hidden {
+  display: none;
+}
+
+.infobox-body p:last-child {
+  margin-bottom: 0;
+}

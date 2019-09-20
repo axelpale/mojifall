@@ -1,5 +1,6 @@
 const emojilist = require('./emojilist')
 const sprinkler = require('sprinkler')
+const infobox = require('./infobox')
 
 var c = document.getElementById('canvas')
 var s = sprinkler.create(c)
@@ -17,3 +18,5 @@ s.start(images, {
   daMin: 0, daMax: 0,
   dyMin: 100, dyMax: 150
 })
+
+document.body.appendChild(infobox())
