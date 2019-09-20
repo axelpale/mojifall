@@ -15,5 +15,5 @@ s.start(images, {
   aMin: 1, aMax: 1,
   drMin: -0.02, drMax: +0.02,
   daMin: 0, daMax: 0,
-  dyMin: 150, dyMax: 200
+  dyMin: 100, dyMax: 150
 })
