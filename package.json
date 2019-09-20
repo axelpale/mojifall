@@ -20,8 +20,11 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^3.2.0",
+    "ejs-loader": "^0.3.3",
     "nodemon": "*",
     "standard": "*",
+    "style-loader": "^1.0.0",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
   },

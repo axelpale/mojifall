@@ -11,8 +11,12 @@ module.exports = {
       {
         test: /\.ejs$/,
         use: 'ejs-loader'
-      }
-    ]
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
   mode: 'development'
 }
