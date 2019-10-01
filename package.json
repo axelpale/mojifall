@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "build": "webpack",
-    "deploy": "rsync -r --include-from=\".deployinclude\" --exclude=\"*\" ./ xeli@xeli.webfactional.com:~/webapps/demos/mojifall",
+    "deploy": "rsync -r --include-from=\".deployinclude\" --exclude=\"*\" ./ xeli@xeli.webfactional.com:~/webapps/demos/mojifall-openmoji-emojitracker",
     "start": "nodemon --watch src --exec 'npm run build'",
     "test": "standard 'src/**/*.js' && echo OK"
   },
