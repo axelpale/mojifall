@@ -1,8 +1,7 @@
 # mojifall-openmoji-emojitracker
 
-A waterfall of emojis animated on html canvas.
+A waterfall of emojis animated on html canvas: [demo.akselipalen.com/mojifall-openmoji-emojitracker](http://demo.akselipalen.com/mojifall-openmoji-emojitracker/)
 
-http://demo.akselipalen.com/mojifall-openmoji-emojitracker/
 
 ## See also
 
