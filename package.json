@@ -1,7 +1,7 @@
 {
   "name": "mojifall-emojitracker",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "OpenMoji + Emojitracker + Sprinkler.js",
   "main": "app.js",
   "scripts": {
