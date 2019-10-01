@@ -7,6 +7,7 @@ A waterfall of emojis animated on html canvas.
 ## See also
 
 - A weighted version that mimics real-world emoji usage in Twitter: [github.com/axelpale/mojifall/tree/emojitracker](https://github.com/axelpale/mojifall/tree/emojitracker)
+- [Unicode Emoji Chart](https://unicode.org/emoji/charts/full-emoji-list.html)
 
 ## License
 
