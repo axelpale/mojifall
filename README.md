@@ -1,8 +1,6 @@
 # mojifall-openmoji
 
-A waterfall of emojis animated on html canvas.
-
-[demo.akselipalen.com/mojifall/](http://demo.akselipalen.com/mojifall/)
+A waterfall of emojis animated on html canvas: [demo.akselipalen.com/mojifall/](http://demo.akselipalen.com/mojifall/)
 
 [![](doc/mojifall-openmoji-cover.png)](http://demo.akselipalen.com/mojifall/)
 
