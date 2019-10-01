@@ -1,15 +1,27 @@
 const emojilist = require('./emojilist')
+const emojirankings = require('./rankings.json')
 const sprinkler = require('sprinkler')
 const infobox = require('./infobox')
 
 var c = document.getElementById('canvas')
 var s = sprinkler.create(c)
 
-var images = emojilist.map(filename => {
-  return 'img/openmoji/' + filename + '.png'
-})
+// DEBUG TOOL
+// Uncomment to inspect emojirankings structure.
+// console.log(JSON.stringify(emojirankings).substr(0, 300))
 
-s.start(images, {
+// Build image distribution.
+const imageDist = emojirankings.reduce((acc, emoji) => {
+  if (emojilist.indexOf(emoji.id) >= 0) {
+    const url = 'img/openmoji/' + emoji.id + '.png'
+    acc[url] = emoji.score
+  } else {
+    console.warn(emoji.id + ' is missing.')
+  }
+  return acc
+}, {})
+
+s.start(imageDist, {
   burnInSeconds: 10,
   imagesInSecond: 4,
   zMin: 1,
