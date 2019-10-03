@@ -29,6 +29,6 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "sprinkler": "^1.2.0"
+    "sprinkler": "^1.2.1"
   }
 }
